@@ -16,6 +16,7 @@ public class Painel {
     }
     //registrarPonto
     public void registrarPonto(String time, int tipo) {
+        System.out.println("O time: " + time + " fez " + tipo + " pontos");
         if (periodoQuarto > 4) {
             System.out.println("O jogo já terminou.");
             return;
@@ -24,14 +25,14 @@ public class Painel {
             System.out.println("Tipo de ponto inválido.");
             return;
         }
-        if (time.equalsIgnoreCase("casa")) {
+        if (time.equalsIgnoreCase(this.nomeTimeCasa)) {
             pontosCasa += tipo;
-            System.out.println("Ponto para o time da casa!");
-        } else if (time.equalsIgnoreCase("visitante")) {
+            System.out.println("Ponto para o time " + this.nomeTimeCasa);
+        } else if (time.equalsIgnoreCase(this.nomeTimeVisitante)) {
             pontosVisitante += tipo;
-            System.out.println("Ponto para o time visitante!");
+            System.out.println("Ponto para o time " + this.nomeTimeVisitante);
         } else {
-            System.out.println("Time inválido. Use 'casa' ou 'visitante'.");
+            System.out.println("Time inválido. Use ' time casa' ou ' time visitante'.");
         }
     }
     //proximo quarto
