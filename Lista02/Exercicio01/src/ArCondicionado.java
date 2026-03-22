@@ -14,7 +14,7 @@ public class ArCondicionado {
         this.ligado = ligado;
     }
 
-    // validação da marca
+    // validação marca
     public void setMarca(String m) {
         if (m != null && m.length() >= 3) {
             this.marca = m;
@@ -23,7 +23,7 @@ public class ArCondicionado {
         }
     }
 
-    // validação da temperatura
+    // validação temperatura
     public void setTemperatura(int t) {
         if (t >= 16 && t <= 30) {
             this.temperatura = t;
