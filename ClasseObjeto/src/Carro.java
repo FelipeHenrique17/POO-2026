@@ -14,14 +14,14 @@ public class Carro {
         this.motor = false;
         this.velAtual = 0;
     }
-    // ligar o carro
+    // ligar carro
     public void ligar(){
         if (!this.motor){
             this.motor = true;
             System.out.println("Carro foi ligado");
         }
     }
-    // desligar o carro
+    // desligar carro
     public void desligar(){
         if (this.motor){
             this.motor = false;
@@ -29,14 +29,14 @@ public class Carro {
             System.out.println("Carro foi desligado");
         }
     }
-    // acelerar o carro de X unidades
+    // acelerar carro de X unidades
     public void acelerar(float x){
         if (this.motor){
             this.velAtual += x;
             System.out.println("Nova velocidade " + this.velAtual);
         }
     }
-    // frear o carro
+    // frear carro
     public void frear(float x){
         if (this.motor && this.velAtual - x >= 0){
             this.velAtual -= x;
