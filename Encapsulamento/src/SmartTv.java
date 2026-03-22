@@ -54,7 +54,7 @@ public class SmartTv {
     }
 
     public void abrirYouTube(){
-        //conectar Internet
+        //conectar a Internet
         if (this.conectarInternet()){
             System.out.println("YouTube abrindo");
         }
