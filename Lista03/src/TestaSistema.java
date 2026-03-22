@@ -13,7 +13,7 @@ public class TestaSistema {
         Avaliacao av = d.getUltimaAvaliacao();
 
         av.adicionarQuestao(1, "O que é POO?", 2.0f);
-        av.adicionarQuestao(2, "Explique o conceito de encapsulamento:", 3.0f);
+        av.adicionarQuestao(2, "Explique encapsulamento:", 3.0f);
         av.adicionarQuestao(3, "Diferença entre agregação e composição?", 5.0f);
 
         System.out.println(d);
