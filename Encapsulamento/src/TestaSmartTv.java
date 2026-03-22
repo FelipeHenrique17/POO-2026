@@ -5,6 +5,6 @@ public class TestaSmartTv {
         st1.setVolume(40);
         System.out.println("Volume de st1 " + st1.getVolume());
 
-        SmartTv st2 = new SmartTv("Samsung", "Windescreen 65", 0, true);
+        SmartTv st2 = new SmartTv("Samsung", "Windescreen 60", 0, true);
     }
 }
