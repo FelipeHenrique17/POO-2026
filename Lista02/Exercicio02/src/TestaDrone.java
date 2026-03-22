@@ -1,6 +1,6 @@
 public class TestaDrone {
     public static void main(String[] args) {
-        Drone d = new Drone("DRONE01", 0, 80, false);
+        Drone d = new Drone("DRONE001", 0, 80, false);
 
         System.out.println(d);
 
