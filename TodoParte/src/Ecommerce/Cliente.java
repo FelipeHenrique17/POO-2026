@@ -1,3 +1,5 @@
+package Ecommerce;
+
 public class Cliente {
     private String cpf;
     private String nome;

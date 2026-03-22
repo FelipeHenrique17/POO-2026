@@ -1,3 +1,5 @@
+package Ecommerce;
+
 public class ItemCarrinho {
     private int id;
     private float qtde;
