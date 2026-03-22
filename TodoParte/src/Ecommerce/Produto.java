@@ -5,6 +5,7 @@ public class Produto {
     private String nome, descricao;
     private float preco;
 
+    // metodo vazio
     public Produto() {
     }
 

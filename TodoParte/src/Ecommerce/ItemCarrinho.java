@@ -8,7 +8,7 @@ public class ItemCarrinho {
     public ItemCarrinho() {
     }
 
-    // esse construtor caracteriza uma agregação
+    // esse construtor caracteriza agregação
     // motivo: cliente ja veio criado, é independente
     public ItemCarrinho(int id, float qtde, Produto produto) {
         this.id = id;

@@ -21,7 +21,7 @@ public class CarrinhoCompra {
         this.itensCarrinho = new ArrayList<>();
     }
 
-    // adicionar itens do carrinho no carrinho
+    // adicionar os itens do carrinho no carrinho
     // composição - item de carrinho depende do carrinho para ser criado
     public void adicionaItemCarrinho(int id, float qtde, Produto produto){
         ItemCarrinho aux = new ItemCarrinho(id, qtde, produto);

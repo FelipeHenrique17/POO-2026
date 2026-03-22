@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class TestaEcommerce {
     public static void main(String[] args){
-        Cliente cli1 = new Cliente("123", "Fulano", "Rua Chile");
+        Cliente cli1 = new Cliente("123", "Felipe", "Rua Chile");
         CarrinhoCompra cc1 = new CarrinhoCompra(1, new Date(), cli1);
         System.out.println(cc1.toString());
 

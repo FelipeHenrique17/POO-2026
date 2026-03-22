@@ -1,5 +1,4 @@
 package ClasseAssociacao;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -63,13 +62,13 @@ public class Reserva {
 
     @Override
     public String toString() {
-        DateTimeFormatter formatoBR = DateTimeFormatter.ofPattern("dd/MM/yyyy 'as' H'h'm");
+        DateTimeFormatter formatoBR = DateTimeFormatter.ofPattern("dd/MM/yyyy 'as' HH'h'm");
         return "Reserva{" +
                 "codigo=" + codigo +
                 ", data=" + data.format(formatoBR) +
                 ", poltrona=" + poltrona +
-                ", passageiro=" + passageiro +
-                ", voo=" + voo +
+                ", \npassageiro=" + passageiro +
+                ", \nvoo=" + voo +
                 '}';
     }
 }

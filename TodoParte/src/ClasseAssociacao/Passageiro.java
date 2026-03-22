@@ -27,7 +27,6 @@ public class Passageiro {
         this.cpf = cpf;
     }
 
-
     @Override
     public String toString() {
         return "Passageiro{" +

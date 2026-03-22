@@ -51,7 +51,7 @@ public class Voo {
 
     @Override
     public String toString() {
-        DateTimeFormatter formatoBR = DateTimeFormatter.ofPattern("dd/MM/yyyy 'as' H'h'm");
+        DateTimeFormatter formatoBR = DateTimeFormatter.ofPattern("dd/MM/yyyy 'as' HH'h'm");
         return "Voo{" +
                 "nro=" + nro +
                 ", origem='" + origem + '\'' +
