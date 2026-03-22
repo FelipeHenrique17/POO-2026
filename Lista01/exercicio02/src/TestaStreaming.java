@@ -7,7 +7,7 @@ public class TestaStreaming {
         s1.cancelarAssinatura();
         System.out.println(s1);
 
-        Streaming s2 = new Streaming("Gabriel", "Família");
+        Streaming s2 = new Streaming("Henrique", "Família");
         System.out.println(s2.toString());
         s2.assistirFilme("Homem Aranha");
         System.out.println(s2);

@@ -35,7 +35,7 @@ public class Painel {
             System.out.println("Time inválido. Use ' time casa' ou ' time visitante'.");
         }
     }
-    //proximo quarto
+    //proximo Quarto
     public void proximoQuarto() {
         if (periodoQuarto < 4) {
             periodoQuarto++;
