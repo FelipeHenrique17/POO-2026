@@ -36,7 +36,7 @@ public class Conta {
             System.out.println("Saldo insuficiente.");
         }
     }
-    // encerrar Conta
+    // encerrar a Conta
     public void encerrarConta() {
         if (saldo == 0) {
             status = false;
