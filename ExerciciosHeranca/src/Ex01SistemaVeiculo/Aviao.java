@@ -1,7 +1,11 @@
 package Ex01SistemaVeiculo;
 
 public class Aviao extends Veiculo {
-    float altitudeMax;
+    private float altitudeMax;
+
+    public Aviao() {
+        super();
+    }
 
     public Aviao(String marca, String modelo, float velocidade, float altitudeMax) {
         super(marca, modelo, velocidade);
@@ -10,11 +14,19 @@ public class Aviao extends Veiculo {
 
     @Override
     public void mover() {
-        System.out.println("Avião voando a " + velocidade + " km/h e " + altitudeMax + " metros");
+        System.out.println("Avião voando a " + this.velocidade + " km/h e " + this.altitudeMax + " metros de altitude.");
     }
 
     @Override
     public void abastecer() {
-        System.out.println("Abastecendo com querosene de aviação");
+        System.out.println("Abastecendo com querosene de aviação.");
+    }
+
+    @Override
+    public String toString() {
+        return "Aviao{" +
+                super.toString() +
+                "altitudeMax=" + altitudeMax +
+                '}';
     }
 }
