@@ -35,7 +35,7 @@ public class ProdutoService {
     public Produto atualizar(Long id, Produto novo){
         for(int i=0;i<lista.size();i++){
             if (lista.get(i).getId().equals(id)){
-                novo.setId(novo.getId());
+                novo.setId(id);
                 lista.set(i, novo);
                 return novo; //atualizou
             }
