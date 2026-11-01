@@ -1,7 +1,7 @@
 
-# 🧠 Estrutura de Dados — 2026
+# 🧠 Programação Orientada a Objetos (POO) — 2026
 
-Repositório destinado ao armazenamento de exercícios, atividades e implementações práticas desenvolvidas durante a disciplina de Estrutura de Dados, utilizando a linguagem Java.
+Repositório destinado ao armazenamento de exercícios, atividades e implementações práticas desenvolvidas durante a disciplina de Programação Orientada a Objetos (POO), utilizando a linguagem Java.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -16,13 +16,13 @@ As principais tecnologias utilizadas no desenvolvimento foram:
 
 Durante o desenvolvimento das atividades, são trabalhados conceitos como:
 
-- Implementação de algoritmos de ordenação.
-- Técnicas de busca de elementos.
-- Manipulação e organização de dados.
-- Estruturas de dados lineares.
-- Programação genérica (Generics).
-- Lógica de programação.
+- Compreensão do paradigma de Programação Orientada a Objetos.
+- Desenvolvimento e organização de classes.
+- Criação e manipulação de objetos.
+- Aplicação dos pilares da POO.
+- Reutilização e organização de código.
 - Resolução de problemas utilizando Java.
+- Desenvolvimento de aplicações com código mais organizado e modular.
 
 ## 👨‍💻 Desenvolvedor
 
@@ -33,4 +33,4 @@ Durante o desenvolvimento das atividades, são trabalhados conceitos como:
 
 ---
 
-⭐ Repositório desenvolvido com finalidade acadêmica, reunindo exercícios e implementações práticas para consolidar conhecimentos em Java e Estrutura de Dados.
+⭐ Repositório desenvolvido com finalidade acadêmica, reunindo exercícios e implementações práticas para consolidar conhecimentos em Java e Programação Orientada a Objetos.
